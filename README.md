@@ -40,5 +40,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - Fluffy Kas(https://www.frontendmentor.io/profile/FluffyKas)
-- Twitter - @fluffykas(https://twitter.com/fluffykas)
+- Frontend Mentor - [Fluffy Kas](https://www.frontendmentor.io/profile/FluffyKas)
+- Twitter - [@fluffykas](https://twitter.com/fluffykas)
