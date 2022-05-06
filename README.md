@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://fluffykas.github.io/testimonials-section/)
+[Live Site URL](https://fluffykas.github.io/testimonials-section/)
 
 ### Built with
 
@@ -41,4 +41,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - Fluffy Kas(https://www.frontendmentor.io/profile/FluffyKas)
-
+- Twitter - @fluffykas(https://twitter.com/fluffykas)
