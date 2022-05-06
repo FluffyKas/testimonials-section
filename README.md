@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](.screenshots/testimonials-section-mobile.png)
-![](.screenshots/testimonials-section-desktop.png)
+![](screenshots/testimonials-section-mobile.png)
+![](screenshots/testimonials-section-desktop.png)
 
 ### Links
 
