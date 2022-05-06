@@ -23,21 +23,49 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 body {
   background: var(--clr-neutral-gray-blue);
   font-family: var(--ff-main);
-  font-size: 13px;
   min-height: 100vh;
   display: grid;
   place-items: center;
+  scroll-behavior: smooth;
 }
 
-.container {
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+main {
   display: grid;
   grid-gap: 1.5rem;
   padding: 1.5rem;
+  max-width: 1000px;
 }
 
 .card {
@@ -134,10 +162,10 @@ body {
   background: var(--clr-primary-blue-900);
 }
 
-@media only screen and (min-width: 1000px) {
+@media (min-width: 1000px) {
 
-  .container {
-    max-width: 90%;
+  main {
+    max-width: 90rem;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "violet violet gray tall"
@@ -164,11 +192,4 @@ body {
     grid-area: dark;
   }
 
-}
-
-@media only screen and (min-width: 1250px) {
-  
-  .container {
-    max-width: 80%;
-  }
 }
