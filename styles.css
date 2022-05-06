@@ -165,8 +165,8 @@ main {
 @media (min-width: 1000px) {
 
   main {
-    max-width: 90rem;
-    grid-template-columns: repeat(4, 1fr);
+    max-width: 75rem;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "violet violet gray tall"
                           "white dark dark tall";
